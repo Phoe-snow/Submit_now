@@ -1,0 +1,57 @@
+
+nav{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	height: 40px;
+	font-size: 20px
+	
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: pink;
+	margin-right: 20px
+
+}
+nav ul a: hover{
+    color: white;
+
+{
+	text-align: right;
+	padding-top: 50px
+}
+
+.div{
+    width: 200px
+	height:250px
+}
+	
+h4{color: white
+}
+.container{
+	display: flex;
+	flex-flow: horizontal;
+}
+.paragraph{
+flex: 1;
+margin: 10px
+}
+.paragraph h4{
+margin-bottom: 5px; 
+}
+
+.Browsing-by-Genre 
+	.paragraph:nth-child(1)h4{
+}
+.Offline-Reading
+	.paragraph:nth-child(2)h4{
+}
+.Personalized-Recommendations
+	.paragraph:nth-child(3)h4{
+}
+
+.video.bg{
+	max-width: 100%
+	height: 700px;
+}

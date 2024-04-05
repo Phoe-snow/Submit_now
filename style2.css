@@ -1,0 +1,38 @@
+body{
+	background-color: #ee82ee
+	background-size: cover;
+}
+
+
+nav{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	height: 40px;
+	font-size: 20px
+	
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: pink;
+	margin-right: 20px
+    
+}
+nav ul a: hover{
+    color: white;
+
+{
+		text-align: right;
+		padding-top: 50px;
+	}
+
+
+
+footer{
+	background-color: black; 
+	color: #9f496e;
+	text-align: left;
+	padding-top: 800px;
+	padding: 20px
+}

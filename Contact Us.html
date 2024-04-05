@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<link rel="stylesheet" type="text/css" href="style5.css">
+
+<nav>
+	<ul>
+
+<a href="index.html">Home</a>
+<a href="Design.html">Design and Editing</a>
+<a href="Marketing.html">Marketing and Publishing</a>
+<a href="Book Haven.html"> Nightingale Book Haven</a>
+
+</ul>
+</nav>
+
+<style>
+ 
+ body{
+      font-family: Arial;
+      margin: 0;
+      padding: 0;
+ }
+ .container{
+ 	max-width: 800px
+ 	margin:0 auto;
+ 	padding: 20px;
+ }
+form{
+	margin-bottom: 10px;
+}
+input[type="text"], input[type="email"], textarea{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+input[type="submit"]:hover{
+	background-color: white;
+}
+
+</style>
+
+</head>
+
+<body style="background-color:  #d6b4fc" >
+
+<div class="container">
+	<h1> Contact Us</h1>
+	<p> Feel free to get intouch with us if you have any questions or need more information</p>
+	<form action="submit.php" method="POST">
+    <label for="name"> Name:</label>
+    <input type="email" id="name"  name=" email" required="required">
+    <label for="message"> Message</label>
+    <textarea id="message" name="message" rows="4" required=""></textarea>
+    <input type="submit" value="submit">
+  
+	</form>
+	
+	<p> Alternatively, You can get ahold of us via:</p>
+	<ul>
+		<li>Phone: +266 636074816</li>
+		<li>Email: info@nightingalepublishing.com</li>
+		<li> Adress: 252 Bolavard Main St, City </li>
+
+	</ul>
+</div>
+
+<footer>
+	<p> &copy; 2024 Nightingale Publishing. All rights reserved</p>
+	<nav>
+		<ul>
+			<a href="#"> Private Policy</a>
+			<a href="#"> Terms of Services</a>
+			<a href="#"> Contact Us</a>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+body{
+	background-color: #ee82ee ;
+	background-size: cover;
+}
+
+nav{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	height: 40px;
+	font-size: 20px
+	
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	margin-right: 20px
+
+}
+nav ul a: hover{
+    color: white;
+}
+
+h1{ 
+    color: white;
+ }
+ h3{
+ 	color:white
+ }
+body{
+	box-sizing: border-box;
+}
+box{
+	float: left;
+	width: 25%;
+	padding:25px;
+}
+
+.div{
+    width: 200px
+	height:250px
+}
+	
+
+h4{color: white
+}
+.container{
+	display: flex;
+}
+.paragraph{
+flex: 1;
+margin: 10px
+}
+.paragraph h4{
+margin-bottom: 5px; 
+}
+
+.Design
+	.paragraph:nth-child(1)h4{
+}
+.Marketing
+	.paragraph:nth-child(2)h4{
+}
+.Editing
+	.paragraph:nth-child(3)h4{
+
+}
+.Publishing
+	.paragraph:nth-child(4)h4{
+}
+
+footer{
+	background-color: transparents; 
+	color: black;
+	text-align: left;
+	padding-top: 800px;
+	padding: 20px
+}
+ul{
+	color: black;
+}
